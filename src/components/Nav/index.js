@@ -2,13 +2,12 @@ import React from 'react';
 import "./navStyle.css"
 function Nav( props ) {
 
-
   return (
     <nav class="topnav">
     <ul className="flex-row">
       <li className="mx-2">
         <button onClick={() => props.setCurrentPage ("About")}>
-          About me
+          About Me
         </button>
       </li>
       <li className="mx-2">

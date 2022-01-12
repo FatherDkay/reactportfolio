@@ -5,10 +5,11 @@ function Header( props ) {
 
   return (
     <header>
-      <div>
-        Paul D. Bailey, MA.Ed/SPE </div>
+      <div class ="headerBox">
+        Paul D. Bailey, MA.Ed/SPE 
         <div>
         <Nav currentPage= { props.currentPage } setCurrentPage = {props.setCurrentPage } class ="topNav"/>
+    </div>
     </div>
     </header>
   );

@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section id="projects">
 <div>
-        <h2 id="projects"><br />Development Projects</h2>
+        <h2 id="projects"><br /><br />Development Projects</h2>
         <div class="grid-container">
         <div class="project miniGram"><a href = "https://arcane-ridge-62025.herokuapp.com/" target = "_blank" rel = "noopener noreferrer">Mini-Gram</a></div>
           <div class="project runBuddy"><a href = "https://fatherdkay.github.io/run-buddy/" target = "_blank" rel="noopener noreferrer">Run Buddy</a></div>

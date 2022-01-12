@@ -8,6 +8,7 @@ function About() {
     <section id="about">
       <div>
         <br />
+        <br />
       <h2>About Me</h2>
       <div class="container">
       <div><img src={headShot} style={{ width:"50%" }} alt="Paul Bailey head shot"></img></div>

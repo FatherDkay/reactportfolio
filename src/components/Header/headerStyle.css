@@ -5,15 +5,8 @@
 header {
     text-align: Left;
     background: white;
-    background-image: url("../../assets/Header/techBackground.jpg") !important;
-    padding: 1px 1px;
+    background-image: url("../../assets/Header/techBackground.jpg");
     position: fixed;
     width: 100%;
     opacity: 92%;
-
 }
-  
-  header h1 {
-    font-size: 50px;
-  }
-  

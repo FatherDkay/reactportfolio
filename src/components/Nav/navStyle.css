@@ -1,6 +1,5 @@
-
   .topnav {
-    overflow: hidden;
+    /* overflow: hidden; */
     top: 0; 
     width: 100%;
 }
@@ -10,7 +9,7 @@
     display: block;
     color: #e0dede;
     text-align: center;
-    padding: 0.25rem 1rem;
+    padding: 0.10rem .25rem;
     text-decoration: none;
   }
   
@@ -26,13 +25,12 @@
   .linkButton {
     font-size: 1rem;
     text-decoration: none;
-    padding: 0.25rem 1rem;
+    padding: 0.10rem .25rem;
     border-radius: .5rem;
     color: #e0dede;
     border: none;
     outline: none;
     cursor: pointer;
-    margin: 0 1px;
     background-color: rgb(117, 29, 113);
     opacity: 90%;
   }
