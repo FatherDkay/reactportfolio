@@ -16,6 +16,7 @@ function Footer() {
         <a class="footerLink" href="https://www.facebook.com/paul.bailey.10236"  target = "_blank" rel = "noopener noreferrer">
       Facebook
         </a>
+        <a class="footerLink" href="mailto:paul.d.bailey@hotmail.com">Email</a>
       </div>
       </div>
     </footer>

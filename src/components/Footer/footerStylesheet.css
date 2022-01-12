@@ -8,8 +8,8 @@ footer {
     height: 30px;
     background-color: rgb(117, 29, 113); /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, rgb(117, 29, 113) , black);
-    padding-left: 10px;
+    padding-left: 13px;
 }
 .footerLink{
-    padding-left: 15px;
+    padding-left: 25px;
 }
