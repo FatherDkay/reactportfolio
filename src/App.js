@@ -7,7 +7,7 @@ import ContactForm from './pages/Contact';
 import Intro from './pages/Intro';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("About") //hook
+  const [currentPage, setCurrentPage] = useState("Intro") //hook
   function renderPage () {
     if(currentPage==="About") {
       return <About />
