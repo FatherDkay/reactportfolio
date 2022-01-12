@@ -7,5 +7,14 @@
     text-align: end;
     justify-content: center;
     padding-top: 200px;
-
+    width: 100%;
+    align-items: flex-end;
+}
+.bottomArea {
+    height: 250px;
+    text-align: end;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100%;
+    align-items: flex-end;
 }
