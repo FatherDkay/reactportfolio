@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageBox {
+    padding-left:10px;
+}
+
+.textBox {
+    text-align: center;
+}

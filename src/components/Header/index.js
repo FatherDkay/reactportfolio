@@ -1,11 +1,15 @@
 import React from 'react';
-
-
-function Header() {
+import "./headerStyle.css"
+import Nav from "../Nav";
+function Header( props ) {
 
   return (
     <header>
-        Paul D. Bailey, MA.Ed/SPE
+      <div>
+        Paul D. Bailey, MA.Ed/SPE </div>
+        <div>
+        <Nav currentPage= { props.currentPage } setCurrentPage = {props.setCurrentPage } class ="topNav"/>
+    </div>
     </header>
   );
 }

@@ -1,0 +1,80 @@
+.projectGrid {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container {
+    text-align: center;
+    display: grid;
+    float: center;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    padding: 15px;
+    color: white;
+  }
+
+  .grid-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-shadow: 0 0 5px #b80399
+  }
+
+.project {
+    opacity: 70%;
+    margin: 2px;
+    width: 140px;
+    height:55px;
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none !important;
+    align-items:center;
+}
+.runBuddy {
+    background-image: url("../../assets/Projects/RunBuddy2.jpg") !important;
+    padding-top: 12px;
+}
+
+.weather {
+    background-image: url("../../assets/Projects/Rain.jpg") !important;
+    padding: 2px;
+}
+
+.scheduler {
+    background-image: url("../../assets/Projects/Scheduler.jpg") !important;
+    padding: 2px;
+}
+
+.techBlog {
+    background-image: url("../../assets/Projects/TechBlog.jpg") !important;
+    padding-top: 12px;
+}
+
+.miniGram {
+    background-image: url("../../assets/Projects/minigram.jpg") !important;
+    padding-top: 12px;
+}
+
+.project:hover {
+    opacity: 100%;
+    box-shadow: 5px 10px 18px rgb(151, 4, 132);
+  }
+
+.tempoFinder {
+    background-image: url("../../assets/Projects/TempoFinder.jpg") !important;
+    padding-top: 12px;
+}
+.tempoFinder a {
+    /* color: black; */
+}
+
+
+.scheduler {
+    opacity: 80%;
+    padding: 5px;
+}
+
+.scheduler:hover {
+    opacity: 100%;
+}
