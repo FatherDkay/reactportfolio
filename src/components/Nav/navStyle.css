@@ -3,13 +3,12 @@
     top: 0; 
     width: 100%;
 }
-  
   .topnav button {
     float: left;
     display: block;
     color: #e0dede;
     text-align: center;
-    padding: 0.10rem .25rem;
+    padding: 0.10rem .15rem;
     text-decoration: none;
   }
   
@@ -25,7 +24,7 @@
   .linkButton {
     font-size: 1rem;
     text-decoration: none;
-    padding: 0.10rem .25rem;
+    padding: 0.10rem .15rem;
     border-radius: .5rem;
     color: #e0dede;
     border: none;
@@ -34,7 +33,7 @@
     background-color: rgb(117, 29, 113);
     opacity: 90%;
   }
-  
+
   .linkButton:hover {
     background-color: rgb(117, 29, 113);
     color: white;

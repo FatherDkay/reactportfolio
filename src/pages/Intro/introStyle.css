@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+
+}
+.topArea {
+    height: 250px;
+    text-align: center;
+    justify-content: center;
+
+}
