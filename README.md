@@ -13,7 +13,7 @@ This is my developer portfolio created using React
 No install is necessary
 
 ## Use
-navigate to the url and behold the wonders of it all
+navigate to https://fatherdkay.github.io/reactportfolio/ and behold the wonders of it all
 
 ## Contribution
 I am the only developer for this project
