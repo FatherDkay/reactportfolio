@@ -35,7 +35,10 @@
     background-image: url("../../assets/Projects/RunBuddy2.jpg") !important;
     padding-top: 12px;
 }
-
+.quack {
+    background-image: url("../../assets/Projects/Quack.jpg") !important;
+    padding-top: 12px;
+}
 .weather {
     background-image: url("../../assets/Projects/Rain.jpg") !important;
     padding: 2px;

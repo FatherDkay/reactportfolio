@@ -14,6 +14,7 @@ function Projects() {
           <div class="project techBlog"><a href="https://sheltered-tundra-87517.herokuapp.com/" target = "_blank" rel = "noopener noreferrer">Tech Blog</a></div>
           <div class="project tempoFinder"><a href = "https://nicwille.github.io/group1/" target = "_blank" rel = "noopener noreferrer">Tempo Finder</a></div>
           <div class="project weather"><a href="https://fatherdkay.github.io/weatherDashboard/" target = "_blank" rel = "noopener noreferrer">Weather Dashboard</a></div>
+          <div class="project quack"><a href="https://git.heroku.com/quackchat-project3.git" target = "_blank" rel = "noopener noreferrer">Quack Chat</a></div>
         </div>
       </div>
       <footer>
