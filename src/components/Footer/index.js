@@ -7,7 +7,6 @@ function Footer() {
     <footer>
       <div>
       <div>
-        Reach Me At:
         <a class="footerLink" href="https://github.com/FatherDkay"  target = "_blank" rel = "noopener noreferrer">
       Github</a>
         <a class="footerLink" href="www.linkedin.com/in/pdbailey0213"  target = "_blank" rel = "noopener noreferrer">

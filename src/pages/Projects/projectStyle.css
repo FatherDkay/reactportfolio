@@ -15,69 +15,70 @@
 
   .grid-container a {
     text-decoration: none;
-    color: rgb(244, 225, 248);
-    font-weight: bold;
+    color: rgb(251, 248, 252);
+    font-weight:unset;
     align-items: center;
-    text-shadow: 0 0 5px #8e03aa
+    text-shadow: 0 0 7px #2b0133;
+    justify-content: center;
+    align-content: center;
   }
 
 .project {
     opacity: 70%;
     margin: 2px;
     width: 170px;
-    height:55px;
+    min-height: 55px;
     border: 1px solid white;
-    text-align: center;
+    text-align:center;
     text-decoration: none !important;
-    align-items:center;
+    align-items:flex-end;
 }
 
 .runBuddy {
     background-image: url("../../assets/Projects/RunBuddy2.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 .quack {
     background-image: url("../../assets/Projects/Quack.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 .weather {
     background-image: url("../../assets/Projects/Rain.jpg") !important;
-    padding: 2px;
+    /* padding: 12px; */
 }
-
 .scheduler {
     background-image: url("../../assets/Projects/Scheduler.jpg") !important;
-    padding: 2px;
+    /* padding: 2px; */
 }
 
 .techBlog {
     background-image: url("../../assets/Projects/TechBlog.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
 .miniGram {
     background-image: url("../../assets/Projects/minigram.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
 .project:hover {
     opacity: 100%;
-    box-shadow: 5px 10px 18px rgb(151, 4, 132);
+    box-shadow: 6px 10px 18px rgb(151, 4, 132);
   }
 
 .tempoFinder {
     background-image: url("../../assets/Projects/TempoFinder.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
 .employeeTracker {
     background-image: url("../../assets/Projects/EmpTracker.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
 .access {
     background-image: url("../../assets/Projects/access.jpg") !important;
-    padding-top: 12px;
+    /* padding-top: 12px; */
 }
 
 .scheduler {
@@ -129,3 +130,23 @@
     visibility: visible;
     opacity: 1;
   }
+
+  .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
