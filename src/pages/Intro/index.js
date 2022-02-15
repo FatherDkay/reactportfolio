@@ -6,8 +6,8 @@ function Intro( props ) {
   return (
     <section>
       <div class ="container">
-          <div class ="topArea fade-in fade-out">
-              Exactly right exists <br />
+          <div class ="topArea fade-in-text">
+              Exactly right exists, <br />
               Lets build it together.
           </div>
           <div class ="bottomArea fade-in-text">

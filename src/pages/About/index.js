@@ -11,8 +11,8 @@ function About() {
         <br />
       <h2>About Me</h2>
       <div class="container">
-      {/* <div><img src={headShot} style={{ width:"50%" }} alt="Paul Bailey head shot"></img></div> */}
-      <div class="textBox">When one sturdy career Crossroads another <br /></div> 
+      <div class="textBox">
+        <h2>When one sturdy career crossroads another</h2> <br /></div> 
       </div>
       </div>
       <div>
@@ -22,6 +22,7 @@ function About() {
       <p>They had no budget. I had time in the evenings. So I rolled up my sleeves, watched A LOT of Youtube videos, and developed <b>a robust, fully functional database </b>that hundreds of students and teachers use to support their day-to-day lives right now, as you read.</p>
       <p><b>Along the way, I fell in love</b>—with development, specifically. I had accidentally unearthed a passion for coding and creating digital spaces. And try as I might, I couldn’t sew back that seam. I halved my working hours as a director, and I threw myself into the study of full stack development. I learned. I learned how much I didn’t know. And the deeper I dug, the bigger my smile grew. This work? This way of thinking? It became my home.</p>
       <p> In addition to my development obsession, I’m a theater nerd, Disney/themepark enthusiast, diet coke drinking amateur wood worker. I'm ready to leverage my experience and skills to help your project get to the next level.  Let’s [Var][1+1]=?answer: meet</p>
+      <br />
       </div>
       <footer>
       <Footer />
