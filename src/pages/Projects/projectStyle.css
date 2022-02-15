@@ -15,22 +15,23 @@
 
   .grid-container a {
     text-decoration: none;
-    color: white;
+    color: rgb(244, 225, 248);
     font-weight: bold;
     align-items: center;
-    text-shadow: 0 0 5px #b80399
+    text-shadow: 0 0 5px #8e03aa
   }
 
 .project {
     opacity: 70%;
     margin: 2px;
-    width: 140px;
+    width: 170px;
     height:55px;
     border: 1px solid white;
     text-align: center;
     text-decoration: none !important;
     align-items:center;
 }
+
 .runBuddy {
     background-image: url("../../assets/Projects/RunBuddy2.jpg") !important;
     padding-top: 12px;
@@ -68,10 +69,16 @@
     background-image: url("../../assets/Projects/TempoFinder.jpg") !important;
     padding-top: 12px;
 }
-.tempoFinder a {
-    /* color: black; */
+
+.employeeTracker {
+    background-image: url("../../assets/Projects/EmpTracker.jpg") !important;
+    padding-top: 12px;
 }
 
+.access {
+    background-image: url("../../assets/Projects/access.jpg") !important;
+    padding-top: 12px;
+}
 
 .scheduler {
     opacity: 80%;
@@ -81,3 +88,44 @@
 .scheduler:hover {
     opacity: 100%;
 }
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    font-size:smaller;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

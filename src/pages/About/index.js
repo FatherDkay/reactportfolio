@@ -11,12 +11,12 @@ function About() {
         <br />
       <h2>About Me</h2>
       <div class="container">
-      <div><img src={headShot} style={{ width:"50%" }} alt="Paul Bailey head shot"></img></div>
-      <div class="textBox">When one sturdy career <br></br>
-Crossroads another</div>
+      {/* <div><img src={headShot} style={{ width:"50%" }} alt="Paul Bailey head shot"></img></div> */}
+      <div class="textBox">When one sturdy career Crossroads another <br /></div> 
       </div>
       </div>
       <div>
+        <br />
       <p>The first years of my career weren’t in development—I spent them teaching, working in administration, and supporting school districts throughout Utah and California. Supporting students with special needs while keeping both my students and my staff safe were the cornerstone of my days, and I believed it was the work I would trade my life doing.</p>
       <p><b>But then a problem created a path.</b> Early 2015, after being promoted into my first director position, I realized there was a desperate need for a school database. Students in special eduacation often have special dietary and medical needs, behavioral challenges, service schedules, and very specific data reporting requirements outlined by the federal and state governments. Teachers had a revolving suite of certification and task requirements, not to mention keeping track of the courses offerred by all of the different districts the schools served. All of it was being tracked by pencil and paper.</p> 
       <p>They had no budget. I had time in the evenings. So I rolled up my sleeves, watched A LOT of Youtube videos, and developed <b>a robust, fully functional database </b>that hundreds of students and teachers use to support their day-to-day lives right now, as you read.</p>
