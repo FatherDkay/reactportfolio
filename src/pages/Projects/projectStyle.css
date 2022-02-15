@@ -15,10 +15,11 @@
 
   .grid-container a {
     text-decoration: none;
-    color: rgb(251, 248, 252);
+    font-weight: bold;
+    color: white;
     font-weight:unset;
     align-items: center;
-    text-shadow: 0 0 7px #2b0133;
+    text-shadow: 0 0 10px black;
     justify-content: center;
     align-content: center;
   }
@@ -27,7 +28,7 @@
     opacity: 70%;
     margin: 2px;
     width: 170px;
-    min-height: 55px;
+    min-height: 75px;
     border: 1px solid white;
     text-align:center;
     text-decoration: none !important;
@@ -57,7 +58,7 @@
 }
 
 .miniGram {
-    background-image: url("../../assets/Projects/minigram.jpg") !important;
+    background-image: url("../../assets/Projects/MiniGramNew.jpg") !important;
     /* padding-top: 12px; */
 }
 
@@ -148,5 +149,18 @@
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .project {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project {
+    font-size: 12px;
+    padding-top: 5px;
   }
 }
