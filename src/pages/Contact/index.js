@@ -37,7 +37,10 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag"><br /><br />Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id="contact-form" action="mailto:paul.d.bailey@hotmail.com" onSubmit={handleSubmit}
+      method = "POST"
+        enctype="multipart/form-data"
+        name="EmailForm">
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />

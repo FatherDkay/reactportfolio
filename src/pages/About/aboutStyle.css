@@ -1,33 +1,8 @@
 .container {
-    display: flex;
-    flex-direction: row;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  line-height: 1.5;
 }
-
-.imageBox {
-    padding-left:10px;
-}
-
-.textBox {
-    text-align: center;
-}
-
-
-section {
-    /*  leverage cascade for cross-browser gradients  */
-    background: linear-gradient(
-      rgb(102, 2, 141), 
-      rgb(255, 255, 255) 
-    ) fixed;
-  
-    background: linear-gradient(
-      rgb(84, 3, 109), 
-      rgb(244, 243, 245), 
-      /* rgb(84, 3, 109)  */
-    ) fixed;
-  
-  
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-  } 
-  

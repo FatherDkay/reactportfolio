@@ -17,12 +17,7 @@ function Nav( props ) {
         </button>
       </li>
       <li className="mx-2">
-      <button onClick={() => props.setCurrentPage ("Contact")}>
-        Contact Me
-        </button>
-      </li>
-      <li className="mx-2">
-      <a class="linkButton" href="https://drive.google.com/file/d/1bkh2E-NiZv-gUdzFNQ0Rr4LYvmjV7NoS/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"onClick={() => props.setCurrentPage ("About")}>
+      <a class="linkButton" href="https://drive.google.com/file/d/193cpT0_Hjcg_zMG0r-c8Oc3Grp2Y62qT/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"onClick={() => props.setCurrentPage ("About")}>
       Resume
         </a>
       </li>
