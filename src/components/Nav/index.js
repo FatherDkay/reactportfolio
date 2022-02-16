@@ -6,20 +6,18 @@ function Nav( props ) {
   return (
     <nav class="topnav">
     <ul className="flex-row">
-      <li className="mx-2">
+      <li class="topPad mx-3">
         <button onClick={() => props.setCurrentPage ("About")}>
           About Me
         </button>
       </li>
-      <li className="mx-2">
+      <li className="topPad mx-3">
         <button onClick={() => props.setCurrentPage ("Projects")}>
           Projects
         </button>
       </li>
-      <li className="mx-2">
-      <a class="linkButton" href="https://drive.google.com/file/d/193cpT0_Hjcg_zMG0r-c8Oc3Grp2Y62qT/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"onClick={() => props.setCurrentPage ("About")}>
-      Resume
-        </a>
+      <li className="topPad mx-3">
+      <a href="https://drive.google.com/file/d/193cpT0_Hjcg_zMG0r-c8Oc3Grp2Y62qT/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"> <button>Resume</button></a>
       </li>
     </ul>
   </nav>
