@@ -7,7 +7,7 @@ function Header( props ) {
   return (
     <header>
       <div class ="headerBox">
-        Paul D. Bailey, MA.Ed/SPE  MERN Full Stack Developer
+        Paul Bailey, MA.Ed/SPE, Full Stack Developer
         <div>
         <Nav currentPage= { props.currentPage } setCurrentPage = {props.setCurrentPage } class ="topNav"/>
     </div>

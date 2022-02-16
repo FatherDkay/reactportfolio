@@ -7,7 +7,7 @@ function Intro( props ) {
     <section>
       <div class ="container">
           <div class ="topArea fade-in-text">
-              Exactly right exists, <br />
+              Exactly right exists. <br />
               Let's build it together.
           </div>
           <div class ="bottomArea fade-in-text">
