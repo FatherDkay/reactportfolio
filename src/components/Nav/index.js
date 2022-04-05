@@ -17,7 +17,7 @@ function Nav( props ) {
         </button>
       </li>
       <li className="topPad mx-3">
-      <a href="https://drive.google.com/file/d/193cpT0_Hjcg_zMG0r-c8Oc3Grp2Y62qT/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"> <button>Resume</button></a>
+      <a href="https://drive.google.com/file/d/1OIOGOpDTMiN3LK23RoeVP6e5FEso864-/view?usp=sharing"  target = "_blank" rel = "noopener noreferrer"> <button>Resume</button></a>
       </li>
     </ul>
   </nav>
